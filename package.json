@@ -1,0 +1,34 @@
+{
+  "name": "firebird-cubejs-driver",
+  "version": "0.0.1",
+  "description": "CubeJS Firebird Driver",
+  "main": "dist/index.js",
+  "scripts": {
+		"build": "tsc -p tsconfig.json",
+		"build:watch": "tsc -p tsconfig.json --watch"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantist/firebird-cubejs-driver.git"
+  },
+  "keywords": [
+    "cubejs",
+    "driver",
+    "firebird"
+  ],
+  "author": "Kant Yazılım A.Ş.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kantist/firebird-cubejs-driver/issues"
+  },
+  "homepage": "https://github.com/kantist/firebird-cubejs-driver#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@cubejs-backend/base-driver": "^0.36.5",
+    "@cubejs-backend/schema-compiler": "^0.36.7",
+    "node-firebird": "^1.1.9"
+  }
+}
